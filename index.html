@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="result">
-            <span>0</span>
-        </div>
+      <div class="result" id="result">
+        <span>0</span>
+      </div>
     </div>
 
     <div class="buttons">
-        <button class="ac">AC</button>
-        <button class="+/-">+/-</button>
-        <button class="%">%</button>
-        <button class="/">/</button>
-        <button class="7">7</button>
-        <button class="8">8</button>
-        <button class="9">9</button>
-        <button class="*">*</button>
-        <button class="4">4</button>
-        <button class="5">5</button>
-        <button class="6">6</button>
-        <button class="-">-</button>
-        <button class="1">1</button>
-        <button class="2">2</button>
-        <button class="3">3</button>
-        <button class="+">+</button>
-        <button class="0">0</button>
-        <button class=".">.</button>
-        <button class="=`
-        ">=</button>
-
+      <button class="item item1 clear" id="btn_clear">AC</button>
+      <button class="item item1 negative" id="btn_negative">+/-</button>
+      <button class="item percent" id="percent">%</button>
+      <button class="item item3 sign" id="btn_div">/</button>
+      <button class="item numbers" id="btn_7">7</button>
+      <button class="item numbers" id="btn_8">8</button>
+      <button class="item numbers" id="btn_9">9</button>
+      <button class="item item3 sign" id="btn_mult">*</button>
+      <button class="item numbers" id="btn_4">4</button>
+      <button class="item numbers" id="btn_5">5</button>
+      <button class="item numbers" id="btn_6">6</button>
+      <button class="item item3 sign" id="btn_sub">-</button>
+      <button class="item numbers" id="btn_1">1</button>
+      <button class="item numbers" id="btn_2">2</button>
+      <button class="item numbers" id="btn_3">3</button>
+      <button class="item item3 sign" id="btn_add">+</button>
+      <button class="item itemZero numbers" id="btn_0">0</button>
+      <button class="item comma" id="btn_point">.</button>
+      <button class="item item equal" id="btn_equal">=</button>
     </div>
-</body>
-
-
+    <script src="index.js"></script>
+  </body>
 </html>
