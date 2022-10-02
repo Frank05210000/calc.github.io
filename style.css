@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    background-color: black;
+
+}
+
+.result span {
+    margin-right: 60px;
+    font-size: 210px;
+    justify-self: flex-end;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 100px;
+
+}
