@@ -21,7 +21,7 @@ body #fullheight {
     justify-content: flex-end;
     align-items:flex-end;
     color: white;
-    height: 39%;
+    height:600px;
 }
 
 .result span {
