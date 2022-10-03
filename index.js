@@ -17,7 +17,8 @@ var btn_equal=document.getElementById("btn_equal")
 
 btn_1.addEventListener("click",function(){
     result+=1;
-    result.innerHTML=result;
+    result.innerHTML=
+    <span>$result</span>;
 })
 
 equals.addEventListener.getElementById("click",function(){
